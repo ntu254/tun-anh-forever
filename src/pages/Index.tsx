@@ -9,7 +9,7 @@ import { Heart } from 'lucide-react';
 
 const Index: React.FC = () => {
   // Start date: April 10, 2023
-  const startDate = new Date(2023, 3, 10); // Month is 0-indexed in JavaScript
+  const startDate = new Date(2025, 3, 10); // Month is 0-indexed in JavaScript
   
   // End date: June 7, 2025
   const endDate = new Date(2025, 5, 7); // Month is 0-indexed in JavaScript

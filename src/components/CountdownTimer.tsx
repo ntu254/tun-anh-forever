@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Heart } from 'lucide-react';
 
@@ -114,7 +113,7 @@ const CountdownTimer: React.FC<TimerProps> = ({ startDate, endDate }) => {
           </div>
           
           <div className="text-center">
-            <h3 className="love-subheading mb-2">Đếm ngược đến 7/6</h3>
+            <h3 className="love-subheading mb-2">Đếm ngược đến 7/6/2025</h3>
             <div className="grid grid-cols-4 gap-2">
               <div className="flex flex-col">
                 <div className="text-2xl md:text-3xl font-bold bg-romantic rounded-lg py-2 px-3 text-love-dark">

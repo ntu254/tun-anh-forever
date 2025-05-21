@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <Heart className="text-love animate-heartbeat" size={20} fill="currentColor" />
         <span className="text-love-dark">Phương Anh</span>
       </div>
-      <p className="text-sm mt-2 text-muted-foreground">2023 - Mãi yêu nhau</p>
+      <p className="text-sm mt-2 text-muted-foreground">2023 - 2025 Mãi yêu nhau</p>
     </footer>
   );
 };

@@ -110,7 +110,7 @@ const CountdownTimer: React.FC<TimerProps> = ({ startDate, endDate }) => {
                 <span className="text-xs mt-1">giây</span>
               </div>
             </div>
-            <p className="text-sm mt-2 italic text-muted-foreground">Kể từ ngày 10/4/2023</p>
+            <p className="text-sm mt-2 italic text-muted-foreground">Kể từ ngày 10/4/2025</p>
           </div>
           
           <div className="text-center">

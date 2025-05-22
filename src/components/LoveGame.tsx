@@ -22,9 +22,7 @@ const questions: Question[] = [
 ];
 
 const rewards = [
-  'Massage vai 10 phút 👐',
   'Gửi ảnh "dễ thương nhất hệ mặt trời" 🌞',
-  'Làm thơ tình dở dở gửi vào nhóm chat bạn bè 👀',
   'Bao trà sữa lần hẹn hò tiếp theo 🧋'
 ];
 
@@ -47,22 +45,15 @@ const LoveGame: React.FC = () => {
           <h2 className="love-heading">Mini Game: "Ai là người yêu giỏi nhất?" 💘</h2>
         </div>
         
-        <p className="mb-6 text-lg">
-          Một game đơn giản, dễ chơi, vừa "bóc phốt nhẹ", vừa cười lăn, lại giúp hiểu nhau hơn. 
-          Có thể chơi khi đi cà phê, chat, hoặc gọi video.
-        </p>
-        
         <div className="bg-romantic-light p-4 rounded-lg mb-6">
           <h3 className="font-semibold text-love-dark mb-2 text-xl">🕹 Cách chơi:</h3>
           <ul className="list-disc list-inside space-y-2 mb-4">
             <li>Mỗi người trả lời các câu hỏi theo kiểu tự thú hoặc đoán xem đối phương sẽ nói gì.</li>
-            <li>Ai trả lời đúng nhiều hơn, sẽ được tuyên dương là "người yêu giỏi nhất (tạm thời)" 😎</li>
+            <li>Ai trả lời đúng nhiều hơn, sẽ được tuyên dương là "người yêu giỏi nhất" 😎</li>
           </ul>
         </div>
         
         <div className="mb-6">
-          <h3 className="font-semibold text-love-dark mb-4 text-xl">💌 Câu hỏi hài hước & lãng mạn:</h3>
-          
           <div className="bg-white border-2 border-romantic rounded-xl p-6 mb-6 shadow-md relative">
             <div className="absolute -top-3 -left-3 bg-love text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
               {currentQuestion + 1}

@@ -17,7 +17,7 @@ const achievements: Achievement[] = [
   {
     category: 'Số lần cãi nhau nhỏ',
     achievement: '0',
-    note: 'là đang cãi thì bạn ấy nhắn: "Thôi, đi ăn không?" 🍜'
+    note: 'là đang cãi thì em ấy nhắn: "Thôi, đi ăn không?" 🍜'
   },
   {
     category: 'Số lần đi date',
@@ -32,7 +32,7 @@ const achievements: Achievement[] = [
   {
     category: 'Tình huống "tự nhiên thấy yêu"',
     achievement: 'hong nhớ khoảnh khắc nhỏ xíu 🥺',
-    note: 'Như lúc người kia lấy đồ ăn cho mình, không nói gì cả...'
+    note: 'Làm nũng ó.........'
   },
   {
     category: 'Số lần "anh/em yêu anh/em"',
@@ -56,7 +56,7 @@ const AchievementBoard: React.FC = () => {
               <tr className="border-b-2 border-romantic">
                 <th className="py-3 px-4 text-left text-love-dark">Hạng mục</th>
                 <th className="py-3 px-4 text-left text-love-dark">Thành tích đạt được</th>
-                <th className="py-3 px-4 text-left text-love-dark">Ghi chú hài hước</th>
+                <th className="py-3 px-4 text-left text-love-dark">Ghi chú</th>
               </tr>
             </thead>
             <tbody>
